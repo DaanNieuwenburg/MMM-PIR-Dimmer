@@ -1,0 +1,9 @@
+{
+  "name": "MMM-PIR-gpio",
+  "version": "1.0.0",
+  "description": "PIR sensor module using rpio (direct GPIO access)",
+  "main": "node_helper.js",
+  "dependencies": {
+    "rpio": "^2.4.2"
+  }
+}
