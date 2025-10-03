@@ -13,4 +13,22 @@
   				}
 		},
 
+
+4. Add a custom.css to the magicmirror/css with the following code
+
+body::after {
+ content: "";
+ position: fixed;
+ inset: 0;
+ background: rgba(0,0,0,0);
+ transition: background 1s ease, opacity 1s ease;
+ opacity: 0;
+ z-index: 9999;
+ }
+
+ body.dimmed::after {
+  background: rgba(0,0,0,0.6);
+  opacity: 1;
+  }
+
 Enjoy
